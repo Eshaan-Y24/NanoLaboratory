@@ -590,7 +590,7 @@ ul.wmuSliderPagination {
 
 /*-- team --*/
 .team{
-	padding:50px 0px;
+	padding:10px 0px 50px;
 }
 .team h3:before{
 	width:20%;
@@ -599,7 +599,7 @@ ul.wmuSliderPagination {
 	width:5%;
 }
 .agile_team_grids{
-	margin:3em 0 0;
+	margin:1em 0 0;
 }
 .team h4 {
     color: #000;
@@ -611,6 +611,7 @@ ul.wmuSliderPagination {
 	padding: 1em;
     border: 4px double #D0D0D0;
     text-align: center;
+		margin-bottom: 1em;
 }
 .agile_team_grid_main{
 	position:relative;
@@ -622,7 +623,7 @@ ul.wmuSliderPagination {
     background: rgba(0, 0, 0, 0.72);
     bottom: 0%;
     position: absolute;
-    padding:1em 0 .6em;
+    padding:1em;
     width: 100%;
     -webkit-transform: translate3d( 0px, 100%, 0px );
     -moz-transform: translate3d( 0px, 100%, 0px );
@@ -632,7 +633,8 @@ ul.wmuSliderPagination {
     -webkit-transition: all .5s ease 0s;
     -moz-transition: all .5s ease 0s;
     transition: all .5s ease 0s;
-    text-align: center;
+    text-align: justify;
+		font-size: 0.8em;
 }
 .agile_team_grid:hover .p-mask{
     opacity: 1;
@@ -1330,7 +1332,7 @@ figure.effect-apollo:hover figcaption::before {
 	.feat-bottom {
 		min-height: 400px;
 	}
-	
+
 	.contact-left-w3ls:before {
 		left: -4%;
 		background-size: 39px;
