@@ -211,24 +211,25 @@ color:#000 !important;
 /*-- logo-navigation --*/
 .logo-navigation-w3layouts{
 	background:#fff;
-	padding:20px 0px;
+	padding:14px 0px;
 }
 .logo-w3{
-	width:30%;
+	width:39%;
+	/* display: flex; */
 	float:left;
 }
 .logo-w3 img{
-	width:15%;
+	width:20%;
 	margin-top:-10px;
 }
 .logo-w3 h1{
 	color:#FFC107;
-	font-size:35px;
+	font-size:30px;
 	text-align:left;
 	text-transform:uppercase;
 }
 .navigation{
-	width:70%;
+	width:61%;
 	float:right;
 }
 .navbar {
@@ -245,7 +246,7 @@ color:#000 !important;
 .hover-effect ul {
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
-	margin-top:14px;
+	margin-top:27px;
 	text-align:right;
 }
 .hover-effect li {
@@ -991,6 +992,11 @@ figure.effect-apollo:hover figcaption::before {
 	filter: alpha(opacity=0);
 }
 /*-- //to-top --*/
+@media (min-width: 1025px){
+	img {
+		vertical-align: sub;
+	}
+}
 @media (max-width:1440px){
 	.contact-left-w3ls:before {
 		left: -23%;
@@ -1135,10 +1141,10 @@ figure.effect-apollo:hover figcaption::before {
 		padding: 1em 1em 1em 0;
 	}
 	.logo-w3 h1{
-		font-size: 27px;
+		font-size: 25px;
 	}
 	.hover-effect ul {
-		margin-top: 0px;
+		margin-top: 20px;
 	}
 	.hover-effect a {
 		padding: 8px 9px;
@@ -1309,10 +1315,22 @@ figure.effect-apollo:hover figcaption::before {
 		font-size: 14.5px;
 	}
 }
+@media (max-width:766px){
+	.navigation {
+		width: 30%;
+	}
+	.logo-w3 {
+		width: 70%;
+	}
+	img {
+		vertical-align: bottom;
+	}
+}
 @media (max-width:768px){
 	.feat-bottom {
 		min-height: 400px;
 	}
+	
 	.contact-left-w3ls:before {
 		left: -4%;
 		background-size: 39px;
@@ -1552,6 +1570,9 @@ figure.effect-apollo:hover figcaption::before {
 	
 }
 @media (max-width:600px){
+	img {
+		vertical-align: baseline;
+	}
 	.w3l_header_right ul {
 		padding: 1em 0 0;
 	}
@@ -1627,6 +1648,9 @@ figure.effect-apollo:hover figcaption::before {
 	}
 }
 @media (max-width:568px){
+	img {
+		vertical-align: super;
+	}
 	.w3l_header_left ul li {
 		font-size: 13px;
 	}
@@ -1634,10 +1658,10 @@ figure.effect-apollo:hover figcaption::before {
 		padding-right: 0.5em;
 	}
 	.logo-w3 img {
-		width: 25%;
+		width: 18%;
 	}
 	.logo-w3 h1 {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.banner h3 {
 		font-size: 26px;
@@ -1663,6 +1687,9 @@ figure.effect-apollo:hover figcaption::before {
 	
 }
 @media (max-width:480px){
+	.logo-w3 h1 {
+		font-size: 20px;
+	}
 	.header {
 		padding-bottom: 15px;
 	}
@@ -1682,11 +1709,11 @@ figure.effect-apollo:hover figcaption::before {
 		border:none;
 	}
 	.logo-w3 {
-		width: 50%;
+		width: 70%;
 		float: left;
 	}
 	.navigation {
-		width: 50%;
+		width: 30%;
 		float: right;
 	}
 	.banner {
@@ -1870,7 +1897,7 @@ figure.effect-apollo:hover figcaption::before {
 		margin-right: 0.3em;
 	}
 	.logo-w3 h1 {
-		font-size: 28px;
+		font-size: 18px;
 	}
 	.about-w3-agile h3:before {
 		width: 34%;
@@ -1920,7 +1947,7 @@ figure.effect-apollo:hover figcaption::before {
 		font-size: 11px;
 	}
 	.logo-w3 h1 {
-		font-size: 23px;
+		font-size: 16px;
 	}
 	.banner {
 		min-height: 187px;
@@ -1991,4 +2018,11 @@ figure.effect-apollo:hover figcaption::before {
 }
 .navbar-toggle{
 	margin-top: 18px;
+}
+.dtu-logo{
+	display: inline-block;
+}
+.labName{
+	display: inline-block;
+	padding: 8px;
 }

@@ -1114,7 +1114,7 @@ figure {
   margin: 0;
 }
 img {
-  vertical-align: middle;
+  vertical-align: super;
 }
 .img-responsive,
 .thumbnail > img,
@@ -1583,19 +1583,19 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px; */
+  padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
