@@ -974,7 +974,7 @@ figure.effect-apollo:hover figcaption::before {
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -1238,7 +1238,7 @@ figure.effect-apollo:hover figcaption::before {
 		width:45%;
 		float:left;
 	}
-	
+
 	.contact-left-w3ls:before {
 		top: 53px;
 		left: -27%;
@@ -1567,7 +1567,7 @@ figure.effect-apollo:hover figcaption::before {
 		background-size: 80px;
 		bottom:-51%;
 	}
-	
+
 }
 @media (max-width:600px){
 	img {
@@ -1684,7 +1684,7 @@ figure.effect-apollo:hover figcaption::before {
 	.contact-right-w3l input[type="text"]:nth-child(1), .contact-right-w3l input[type="text"]:nth-child(3) {
 		margin-right: 1.2%;
 	}
-	
+
 }
 @media (max-width:480px){
 	.logo-w3 h1 {
@@ -1703,7 +1703,7 @@ figure.effect-apollo:hover figcaption::before {
 		text-align:center;
 	}
 	.w3l_header_left ul {
-		border: none 
+		border: none
 	}
 	.w3l_header_left ul li {
 		border:none;
@@ -1728,7 +1728,7 @@ figure.effect-apollo:hover figcaption::before {
 	.arrow img {
 		width: 6%;
 	}
-	
+
 	.contact-w3-agileits h3, .about-w3-agile h3, .featured-work h3, .gallery h3, .team h3, .services h3 {
 		font-size: 19px;
 	}
@@ -1743,7 +1743,7 @@ figure.effect-apollo:hover figcaption::before {
 		float: left;
 		padding: 0 15px;
 	}
-	
+
 	.services-grids {
 		width: 100%;
 		float: left;
@@ -1885,7 +1885,7 @@ figure.effect-apollo:hover figcaption::before {
 @media (max-width:375px){
 	.w3l_header_left ul li span {
 		margin-right: 0.3em;
-		padding:0.4em;		
+		padding:0.4em;
 	}
 	.w3l_header_left ul li{
 		margin-right: 0.3em;
@@ -2016,6 +2016,7 @@ figure.effect-apollo:hover figcaption::before {
 		float: right;
 	}
 }
+
 .navbar-toggle{
 	margin-top: 18px;
 }
