@@ -729,7 +729,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-10 contact-text-agileinf0">
 						<h4>Visit us</h4>
-						<h5>Parma Via Modena,BO, Italy</h5>
+						<h5>
+							Department of Applied Physics <br>Delhi Technological University <br> Delhi, India
+						</h5>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -749,7 +751,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-10 contact-text-agileinf0">
 						<h4>Call us</h4>
-						<h5>+18044261149</h5>
+						<h5>+91 9953114664</h5>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -759,21 +761,44 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-10 contact-text-agileinf0">
 						<h4>Work hours</h4>
-						<h5>Mon-Sat 09:00 AM - 05:00PM</h5>
+						<h5>Mon-Fri 08:00 AM - 06:00PM</h5>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 			</div>
 			<div class="col-md-7 contact-right-w3l">
 				<h3>Leave message</h3>
-				<form action="#" method="post">
-					<input type="text"  class="name" name="name" placeholder="First Name" required="">
-					<input type="text"  class="name" name="name" placeholder="Last Name" required="">
-					<input type="text"  class="name" name="name" placeholder="Email" required="">
-					<input type="text"  class="name" name="name" placeholder="Subject" required="">
-					<textarea placeholder="Your Message" required=""></textarea>
+				<form target="_self" onsubmit="return postToGoogle();" action="">
+					<input type="text"  id="firstname" class="name" name="entry.750068583" placeholder="First Name" required="">
+					<input type="text" id="lastname" class="name" name="entry.1265309356" placeholder="Last Name">
+					<input type="text" id="email" class="name" name="entry.866206539" placeholder="Email" required="">
+					<input type="text" id="subject" class="name" name="entry.1847332786" placeholder="Subject" required="">
+					<textarea placeholder="Your Message" id="message" name="entry.463847217" required=""></textarea>
 					<input type="submit" value="SEND MESSAGE">
 				</form>
+				<script>
+					function postToGoogle() {
+									var field1 = $("#firstname").val();
+									var field2 = $("#lastname").val();
+									var field3 = $("#email").val();
+									var field4 = $("#subject").val();
+									var field5 = $("#message").val();
+	
+									$.ajax({
+										url: "https://docs.google.com/forms/d/e/1FAIpQLSdlMi2QuI7ZH7m2AdryctVcAGNRPqlBJfXUX-QrbHVs1Nerag/formResponse?",
+										data: {"entry.750068583": field1, "entry.1265309356": field2, "entry.866206539": field3, "entry.1847332786": field4, "entry.463847217": field5},
+										type: "POST",
+										dataType: "xml",
+										success: function(d)
+										{
+										},
+										error: function(x, y, z)
+										{				
+										}
+									});
+									return false;
+								}
+					</script>
 			</div>
 			<div class="clearfix"></div>
 		</div>
