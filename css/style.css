@@ -351,8 +351,8 @@ color:#000 !important;
 }
 /*-- banner--*/
 .banner{
-	background:url('../images/banner3.jpg') no-repeat 0px 0px;
-	background-size:cover;
+	background:url('../images/banner3.jpeg') no-repeat 0px 0px;
+	background-size:contain;
 	min-height:650px;
 }
 .banner h3{
