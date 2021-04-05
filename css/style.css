@@ -633,9 +633,11 @@ ul.wmuSliderPagination {
     -webkit-transition: all .5s ease 0s;
     -moz-transition: all .5s ease 0s;
     transition: all .5s ease 0s;
-    text-align: justify;
-		font-size: 0.8em;
+    text-align: left;
+		color: white;
 }
+
+
 .agile_team_grid:hover .p-mask{
     opacity: 1;
     visibility: visible;
