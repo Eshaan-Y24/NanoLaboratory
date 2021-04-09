@@ -211,6 +211,10 @@ color:#000 !important;
 /*-- logo-navigation --*/
 .logo-navigation-w3layouts{
 	background:#fff;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
 	padding:14px 0px;
 }
 .logo-w3{
@@ -442,7 +446,7 @@ color:#000 !important;
 	color:#8d8d8d;
 	line-height:30px;
 }
-.wthree_about_grid_left a,.featured-right a{
+.wthree_about_grid_left a,.featured-right a,.team a{
 	font-size:14px;
 	background: #FFC107;
     color: #fff;
