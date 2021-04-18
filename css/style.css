@@ -455,6 +455,19 @@ color:#000 !important;
     border: none;
 	display:inline-block;
 }
+
+.agile_team_grid_main a{
+	margin: 0;
+	padding: 0;
+	display: block;
+	transition: 0.5s;
+}
+
+.agile_team_grid_main a:hover{
+	transition: 1s;
+	filter: brightness(50%);
+}
+
 .wthree_about_grid_left a:hover,.featured-right a:hover{
 		background: #00bcd4;
 }
