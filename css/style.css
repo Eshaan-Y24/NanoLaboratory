@@ -405,7 +405,7 @@ color:#000 !important;
 .contact-w3-agileits h3,.about-w3-agile h3,.featured-work h3,.gallery h3,.team h3,.services h3{
 	color:#000;
 	text-transform:uppercase;
-	font-size:25px;
+	font-size:312.5%;
 	letter-spacing:2px;
 	font-weight:700;
 	text-align:left;
@@ -442,7 +442,7 @@ color:#000 !important;
     margin-top: 30px;
 }
 .wthree_about_grid_left  p,.featured-right p,.services p,.modal-body p{
-	font-size:14px;
+	font-size:20px;
 	color:#8d8d8d;
 	line-height:30px;
 }
@@ -850,6 +850,7 @@ ul.social-icons li .icon-button .pinterest:hover{
 
 figure.effect-apollo {
 	background: #000;
+	border-radius: 20px;
 }
 
 figure.effect-apollo img {

@@ -1,32 +1,33 @@
 
 .about{
     padding: 2%;
-    width: 85%;
+    width: 100%;
     margin: 0 auto 0 auto;
     vertical-align: top;
     text-align: center;
 }
 
 .about img{
-    width: 28%;
+    width: 22%;
     margin-right: 2%;
     float: left;
 }
 
 .about h1{
-    font-size: 500%;
-    margin: 5%;
+    font-size: 300%;
+    margin: 0 auto 2%;
+    font-weight: bold;
 }
 
 .profile-text{
-    width: 80%;
+    width: 90%;
     display: inline-block;
     margin: 0 auto 0 auto;
     text-align: justify;
     vertical-align: top;
-    font-size: 150%;
 }
 
-.profile-text p{
+.profile-text p, ul{
     margin-bottom: 20px;
+    font-size: 150%;
 }
